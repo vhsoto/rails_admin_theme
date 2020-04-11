@@ -11,7 +11,7 @@ body.rails_admin .form-horizontal textarea {
 }
 
 body.rails_admin .sidebar-nav .dropdown-header {
-  color: #fff;
+  color: #202346;
   padding: 10px 15px;
   font-size: 14px;
   line-height: 1.42857143;
@@ -40,6 +40,7 @@ body.rails_admin .table .header:after {
 
 body.rails_admin .sidebar-nav {
   background: $primary;
+  padding-top: 1rem;
 }
 
 .nav .nav-pills .nav-stacked {
@@ -59,22 +60,22 @@ body.rails_admin .sidebar-nav > .nav-stacked > li > a {
 
     &:nth-child(1) {
       a {
-        background: #29B6F6;
-        color: #fff;
+        background: #fff;
+        color: #202346;
       }
     }
 
     &:nth-child(2) {
       a {
-        background: #66BB6A;
-        color: #fff;
+        background: #fff;
+        color: #202346;
       }
     }
 
     &:nth-child(3) {
       a {
-        background: #ef5350;
-        color: #fff;
+        background: #fff;
+        color: #202346;
       }
     }
   }
@@ -172,6 +173,7 @@ body.rails_admin .sidebar-nav > .nav-stacked > li > a {
 .navbar-default {
   background: $secondary;
   border: 0;
+  box-shadow: 0 5px 8px grey;
 }
 
 .dropdown-header.open {
