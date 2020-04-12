@@ -11,7 +11,7 @@ body.rails_admin .form-horizontal textarea {
 }
 
 body.rails_admin .sidebar-nav .dropdown-header {
-  color: #202346;
+  color: #fff;
   padding: 10px 15px;
   font-size: 14px;
   line-height: 1.42857143;
@@ -39,7 +39,7 @@ body.rails_admin .table .header:after {
 }
 
 body.rails_admin .sidebar-nav {
-  background: $primary;
+  background: $secondary;
   padding-top: 1rem;
 }
 
